@@ -39,7 +39,7 @@ double ang_dist(double ra1, double dec1, double ra2, double dec2) {
     return d;
 }
 
-void cosmici_correlazione() {
+void cosmic_correlation() {
     gROOT->Reset(); // Reset ROOT
     
     int nsel = 69; // Number of selected events
